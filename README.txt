@@ -19,12 +19,11 @@ Before running, follow these steps:
           Pylance (Microsoft, Language Support)
   (4) Create/navigate to the directory in which to store the files you downloaded
         if not already created, run this command in command prompt: mkdir dbconnect
-        if you're downloading this all the files in this repo, dbconnect folder is already created 
-          move this folder to the directory you are currently in (shown in command prompt)
-        start Visual Studio Code and open a folder using the 
+        add file 'connection.py' to the newly created dbconnect folder along with 'graphics.py'
+        start Visual Studio Code and open a folder 
           File -> Open folder
           choose the folder you just created
-          click 'Open File' and open the file 'connection.py' that you downloaded from this repo
+          click 'Open File' and open file 'connection.py'
   (5) Create a virtual environment
         open terminal menu with View -> Terminal
         run this command: python -m venv .venv
